@@ -1,2 +1,9 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿//Показать таблицу квадратов чисел от 1 до N
+
+Console.Clear();
+Console.WriteLine("Введите число N: ");
+int n = int.Parse(Console.ReadLine());
+for (int i = 1; i <= n; i++)
+{
+    Console.WriteLine($"Квадрат числа {i} = {i*i}");
+}
